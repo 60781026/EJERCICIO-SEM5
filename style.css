@@ -1,0 +1,203 @@
+/* General */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Contenedor principal */
+.container {
+    width: 80%;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+}
+
+/* Columna izquierda donde estará el perfil y las experiencias */
+.left-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Columna derecha donde irán los demás elementos */
+.right-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Tarjeta de perfil */
+.profile-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.profile-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Estilos de la sección de Experiencias */
+.experiences {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.experiences h3 {
+    color: #4f4f4f;
+}
+
+.experience {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 15px;
+}
+
+.experience img {
+    width: 50px; /* Tamaño adecuado para los logos */
+    height: auto;
+}
+
+.exp-text h4 {
+    color: #4f4f4f;
+    margin: 0;
+    font-size: 14px;
+}
+
+.exp-text p {
+    margin: 5px 0;
+    color: #828282;
+    font-size: 14px;
+}
+
+.exp-text strong {
+    font-weight: 600;
+    color: #2f80ed;
+}
+
+/* Estilos de Skills */
+.skills {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.skills h3 {
+    color: #4f4f4f;
+}
+
+
+.progress {
+    width: 70%;
+    height: 8px;
+    background: #ddd;
+    border-radius: 5px;
+}
+
+.bar {
+    height: 100%;
+    background: #2f80ed;
+    border-radius: 5px;
+}
+
+/* Estilos de la sección de Proyectos */
+.projects {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.project h4 {
+    color: #2f80ed;
+    margin: 5px 0;
+}
+
+.project p {
+    color: #4f4f4f;
+    font-size: 14px;
+}
+
+.project a {
+    text-decoration: none;
+    color: #2f80ed;
+    font-weight: bold;
+}
+
+.project a:hover {
+    color: #828282;
+}
+
+/* Estilos del Blog */
+.blog {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.blog h3 {
+    color: #4f4f4f;
+}
+
+.blog-post {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.blog-post img {
+    width: 100px;
+    border-radius: 10px;
+}
+
+.blog-post h4 {
+    color: #2f80ed;
+    margin: 0;
+}
+
+.blog-post p {
+    font-size: 14px;
+    color: #828282;
+}
+
+/* Estilos de la sección de Hobbies */
+.hobbies {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hobby {
+    margin-bottom: 15px;
+}
+
+.hobby img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.hobby h4 {
+    color: #4f4f4f;
+}
